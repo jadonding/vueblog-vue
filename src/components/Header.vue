@@ -1,10 +1,10 @@
 <template>
-  <div>detail</div>
+
 </template>
 
 <script>
 export default {
-name: "BlogDetail"
+  name: "Header"
 }
 </script>
 
