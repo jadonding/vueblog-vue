@@ -6,6 +6,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import axios from 'axios'
 import './axios.js'
+import './premission.js'
 // import './autoload.js'
 // import './jquery.min.js'
 // import './semantic.min.js'
