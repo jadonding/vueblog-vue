@@ -8,7 +8,7 @@
           <el-card>
             <h4>
               <router-link :to="{name:'BlogDetail',params:{blogId:blog.id}}">
-                {{blog.title}}}
+                {{blog.title}}
               </router-link>
             </h4>
             <p>{{blog.description}}</p>
