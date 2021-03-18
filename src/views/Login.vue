@@ -2,8 +2,8 @@
   <div>
 
     <el-container>
-      <el-header>
-        <img class="mlogo" src="https://www.markerhub.com/dist/images/logo/markerhub-logo.png" alt="">
+      <el-header height="200px">
+        <img class="mlogo" src="http://www.jdblg.cn/wp-content/uploads/2019/12/Jadons.png" alt="">
       </el-header>
       <el-main>
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
@@ -80,22 +80,14 @@ export default {
 </script>
 
 <style scoped>
-.el-header, .el-footer {
-  background-color: #B3C0D1;
-  color: #333;
+.el-header{
+  background-color: #a7d9db;
   text-align: center;
   line-height: 60px;
 }
 
-.el-aside {
-  background-color: #D3DCE6;
-  color: #333;
-  text-align: center;
-  line-height: 200px;
-}
-
 .el-main {
-  /*background-color: #E9EEF3;*/
+  /*background-color:skyblue;*/
   color: #333;
   text-align: center;
   line-height: 160px;
@@ -103,20 +95,12 @@ export default {
 
 body > .el-container {
   margin-bottom: 40px;
-}
 
-.el-container:nth-child(5) .el-aside,
-.el-container:nth-child(6) .el-aside {
-  line-height: 260px;
-}
-
-.el-container:nth-child(7) .el-aside {
-  line-height: 320px;
 }
 
 .mlogo {
-  height: 60%;
-  margin-top: 10px;
+  height: 100%;
+  /*margin-top: 0px;*/
 }
 
 .demo-ruleForm {
