@@ -27,7 +27,7 @@ export default {
     return {
       user: {
         username: '请先登录',
-        avatar: 'http://www.jdblg.cn/wp-content/uploads/2019/12/Jadons.png'
+        avatar: 'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'
       },
       hasLogin: false
     }

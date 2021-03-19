@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       ruleForm: {
-        username: 'markerhub',
+        username: 'admin',
         password: '111111'
       },
       rules: {
